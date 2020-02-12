@@ -1,0 +1,14 @@
+{
+  "name": "jeyroik/kilobook-core",
+  "description": "Kilobook core package",
+  "require": {
+    "jeyroik/extas-base": "*",
+    "jeyroik/extas-installer": "*",
+    "jeyroik/extas-players": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "kilobook\\": "src/"
+    }
+  }
+}
